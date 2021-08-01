@@ -62,3 +62,21 @@ Suba tudo em um repositório e faça a entrega.
 
     # para listar os containers ativos
     docker-compose ps
+
+##### Mysql
+
+    # Acessar o docker do mysql
+    docker exec -it db bash
+
+    # Entrar no client do Mysql
+    mysql -uroot -p
+
+    # Listar bancos de dados
+    show databases;
+
+    # Criar tabela
+    use nodedb;
+    create table people(id int not null auto_increment, name varchar(255), primary key (id));
+
+    # Listar restrutura da tabela
+    desc people
