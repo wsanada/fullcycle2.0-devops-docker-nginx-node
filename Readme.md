@@ -20,13 +20,15 @@ Suba tudo em um repositório e faça a entrega.
 
 ## Resultado Publicado
 
-### Github
+### Projeto Finalizado
 
-[Repositório wsanada/fullcycle2.0-devops-docker-nginx-node](https://github.com/wsanada/fullcycle2.0-devops-docker-nginx-node)
+Para rodar o teste baixe o projeto e execute
+
+    docker-compose up -d
 
 ---
 
-## Exercícios Executados
+## Artefatos e Anotações
 
 ##### Geração das Imagens e Containers Individualmente
 
