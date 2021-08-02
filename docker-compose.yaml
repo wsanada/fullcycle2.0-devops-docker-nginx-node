@@ -21,7 +21,7 @@ services:
             dockerfile: Dockerfile.prod
         image: wsanada/node:prod
         container_name: node
-        entrypoint: dockerize -wait tcp://db:3306 -timeout 20s docker-entrypoint.sh
+        entrypoint: dockerize -wait tcp://db:3306 -timeout 60s docker-entrypoint.sh
         command: node index.js
         tty: true
         networks:
